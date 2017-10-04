@@ -1,0 +1,2 @@
+//Deployment steps
+./spark-submit --master spark://localhost:7077 --deploy-mode cluster {path}/spark-spring-integration/target/spark-spring-seed-0.0.1-SNAPSHOT.jar
