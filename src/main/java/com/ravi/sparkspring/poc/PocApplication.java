@@ -21,4 +21,6 @@ public class PocApplication /*implements CommandLineRunner*/ {
     public void run(String... args) throws Exception {
     	wordCountJob.count();
     } */
+	
+/*	   */
 }
