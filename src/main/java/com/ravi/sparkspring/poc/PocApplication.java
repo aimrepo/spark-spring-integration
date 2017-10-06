@@ -10,8 +10,8 @@ import com.ravi.sparkspring.poc.job.WordCountJob;
 @SpringBootApplication
 public class PocApplication /*implements CommandLineRunner*/ {
 
-/*    @Autowired
-    private WordCountJob wordCountJob;*/
+    //@Autowired
+    private WordCountJob wordCountJob;
     
 	public static void main(String[] args) {
 		SpringApplication.run(PocApplication.class, args);
