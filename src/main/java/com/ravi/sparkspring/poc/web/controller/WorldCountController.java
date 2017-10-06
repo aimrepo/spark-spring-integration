@@ -21,8 +21,7 @@ public class WorldCountController  {
     public ResponseEntity<List<Count>> words() {
         return new ResponseEntity<>(wordCountJob.count(), HttpStatus.OK);
     }
-    
-    //Kafka changes
+    //kafka method    
     @RequestMapping("kafka")
     public void kafkawords() throws InterruptedException {
         wordCountJob.kafkaCount();
