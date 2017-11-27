@@ -35,7 +35,7 @@ import scala.Tuple2;
 public class WordCountJob implements Serializable   {
 
     /**
-	 * 
+	 * WordCount Example
 	 */
 	private static final long serialVersionUID = 1L;
 
