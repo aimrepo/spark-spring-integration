@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.ravi.sparkspring.poc.job.WordCountJob;
 
 @SpringBootApplication
-public class PocApplication /*implements CommandLineRunner*/ {
+public class PocApplication /*implements CommandLineRunner interface*/ {
 
     //@Autowired
 	private WordCountJob wordCountJob;
