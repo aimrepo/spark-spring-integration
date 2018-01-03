@@ -17,7 +17,7 @@ public class PocApplication {
 		SpringApplication.run(PocApplication.class, args);
 	}
 	
-	
+	//test
 /*    @Override
     public void run(String... args) throws Exception {
     	wordCountJob.count();
