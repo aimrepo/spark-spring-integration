@@ -18,9 +18,9 @@ public class PocApplication {
 	}
 	
 	
-    @Override
+    /*@Override
     public void run(String... args) throws Exception {
     	wordCountJob.count();
-    } 	
+    }*/ 	
 
 }
