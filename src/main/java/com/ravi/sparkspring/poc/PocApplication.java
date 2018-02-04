@@ -10,8 +10,7 @@ import com.ravi.sparkspring.poc.job.WordCountJob;
 @SpringBootApplication
 public class PocApplication {
 
-    //@Autowired
-	//Test Commit11
+    //@Autowired	
 	private WordCountJob wordCountJob;
     
 	public static void main(String[] args) {
