@@ -53,7 +53,8 @@ public class WordCountJob implements Serializable   {
         Dataset<Row> dataFrame = sparkSession.createDataFrame(words, Word.class);
         dataFrame.show();
         //StructType structType = dataFrame.schema();
-
+        
+        //test code
        /* RelationalGroupedDataset groupedDataset = dataFrame.groupBy(col("word"));
         groupedDataset.count().show();
         List<Row> rows = groupedDataset.count().collectAsList();//JavaConversions.asScalaBuffer(words)).count();
