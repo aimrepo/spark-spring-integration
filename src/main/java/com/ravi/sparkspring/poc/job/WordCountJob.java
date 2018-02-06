@@ -54,7 +54,7 @@ public class WordCountJob implements Serializable   {
         dataFrame.show();
         //StructType structType = dataFrame.schema();
         
-        //TestCommitCode11
+        
        /* RelationalGroupedDataset groupedDataset = dataFrame.groupBy(col("word"));
         groupedDataset.count().show();
         List<Row> rows = groupedDataset.count().collectAsList();//JavaConversions.asScalaBuffer(words)).count();
